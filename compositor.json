@@ -1,0 +1,85 @@
+{
+  "name": "iRaul/pushy-buttons",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Pushy Buttons",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/iRaul/pushy-buttons",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "pushy-buttons",
+      "subhead": "Pressable 3D Buttons",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "pushy-buttons: Pressable 3D Buttons",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "iRaul",
+          "repo": "pushy-buttons"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h2>PUSHY BUTTONS</h2>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/iRaul/pushy-buttons",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/iRaul",
+          "text": "iRaul"
+        }
+      ]
+    }
+  ]
+}
