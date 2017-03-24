@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900");
 html, body {
   height: 100%;
   width: 100%;
   margin: 0; }
 
 body {
-  background: #ddd;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -17,6 +18,15 @@ body {
 
 div {
   margin-bottom: 20px; }
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 3px 0 #afb6b6, 0 4px 0 #a4adac, 0 5px 0 #9fa8a7, 0 6px 0 #99a3a2, 0 7px 0 #97a1a0, 0 8px 0 #949e9d, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 100px; }
 
 .btn {
   display: inline-block;
