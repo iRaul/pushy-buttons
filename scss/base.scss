@@ -1,3 +1,7 @@
+// Typography
+// -----------
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 // Base Styles
 // -----------
 .btn {
@@ -37,13 +41,13 @@
 // Colors
 // -----------
 .btn--blue {
-  background-color: $primary-color;
+  background-color: $blue;
 }
 .btn--green {
-  background-color: $secondary-color;
+  background-color: $green;
 }
 .btn--red {
-  background-color: $danger-color;
+  background-color: $red;
 }
 
 // Sizes

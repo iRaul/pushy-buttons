@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
 html, body {
   height: 100%;
   width: 100%;
@@ -41,13 +42,13 @@ div {
     padding-bottom: .5em; }
 
 .btn--blue {
-  background-color: #387ef5; }
+  background-color: #3498db; }
 
 .btn--green {
-  background-color: #32db64; }
+  background-color: #1abc9c; }
 
 .btn--red {
-  background-color: #f53d3d; }
+  background-color: #e65d4f; }
 
 .btn--lg {
   font-size: 1.25em; }
