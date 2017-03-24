@@ -1,20 +1,2 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-body {
-  background: #ddd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-div {
-  margin-bottom: 20px;
-}
-
 @import "variables.scss";
 @import "base.scss";
