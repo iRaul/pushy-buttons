@@ -1,22 +1,42 @@
+// Imports
+// -----------
+@import "variables.scss";
+@import "base.scss";
+
 // Page Style
 // -----------
 
-html, body {
+html {
   height: 100%;
-  width: 100%;
-  margin: 0;
 }
 
 body {
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  background-color: #555c73; //#6f86d6
+  min-height: 100%;
+  margin: 0;
+  padding: 20px;
 }
 
-div {
-  margin-bottom: 20px;
+section {
+  padding: 40px 0;
+
+  h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+  }
+
+  .blue {
+    color: $blue;
+  }
+  .green {
+    color: $green;
+  }
+  .red {
+    color: $red;
+  }
 }
 
 // 3D Title
@@ -43,8 +63,3 @@ div {
   font-weight: 900;
   font-size: 100px;
 }
-
-// Imports
-// -----------
-@import "variables.scss";
-@import "base.scss";

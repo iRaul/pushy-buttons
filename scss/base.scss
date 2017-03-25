@@ -9,15 +9,12 @@
     display: inline-block;
     border: none;
     border-radius: .3em;
-    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-                inset 0 2px 0 hsla(0,0%,100%,.1),
-                inset 0 -.2em 0 hsla(0,0%,100%,.1),
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
                 inset 0 -.25em 0 hsla(0,0%,0%,.25),
                 0 .25em .25em hsla(0,0%,0%,.05);
     color: #fff;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -26,14 +23,13 @@
     text-decoration: none;
     text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
     vertical-align: middle;
+    user-select: none;
 
     &:active {
       outline: none;
       box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
                   inset 0 2px 0 hsla(0, 0%, 100%, .1),
-                  inset 0 .25em .5em hsla(0, 0%, 0%, .05),
-                  0 -1px 1px hsla(0, 0%, 0%, .1),
-                  0 1px 1px hsla(0, 0%, 100%, .25);
+                  inset 0 .25em .5em hsla(0, 0%, 0%, .05);
       margin-top: .25em;
       padding-bottom: .5em;
     }
@@ -54,11 +50,14 @@
 // Sizes
 // -----------
 .btn--lg {
-  font-size: 1.25em;
+  font-size: $large;
+}
+.btn--df {
+  font-size: $default;
 }
 .btn--md {
-  font-size: 1em;
+  font-size: $medium;
 }
 .btn--sm {
-  font-size: .75em;
+  font-size: $small;
 }
