@@ -27,22 +27,22 @@ Checkout the [Demo](https://iraul.github.io/pushy-buttons/) to see the buttons i
 
 ```html
 <!-- Blue Buttons -->
-<button class="btn btn--lg btn--blue" href="#">Button</button>
-<button class="btn btn--df btn--blue" href="#">Button</button>
-<button class="btn btn--md btn--blue" href="#">Button</button>
-<button class="btn btn--sm btn--blue" href="#">Button</button>
+<button class="btn btn--lg btn--blue">Button</button>
+<button class="btn btn--df btn--blue">Button</button>
+<button class="btn btn--md btn--blue">Button</button>
+<button class="btn btn--sm btn--blue">Button</button>
 
 <!-- Green Buttons -->
-<button class="btn btn--lg btn--green" href="#">Button</button>
-<button class="btn btn--df btn--green" href="#">Button</button>
-<button class="btn btn--md btn--green" href="#">Button</button>
-<button class="btn btn--sm btn--green" href="#">Button</button>
+<button class="btn btn--lg btn--green">Button</button>
+<button class="btn btn--df btn--green">Button</button>
+<button class="btn btn--md btn--green">Button</button>
+<button class="btn btn--sm btn--green">Button</button>
 
 <!-- Red Buttons -->
-<button class="btn btn--lg btn--red" href="#">Button</button>
-<button class="btn btn--df btn--red" href="#">Button</button>
-<button class="btn btn--md btn--red" href="#">Button</button>
-<button class="btn btn--sm btn--red" href="#">Button</button>
+<button class="btn btn--lg btn--red">Button</button>
+<button class="btn btn--df btn--red">Button</button>
+<button class="btn btn--md btn--red">Button</button>
+<button class="btn btn--sm btn--red">Button</button>
 ```
 ## Author
 
