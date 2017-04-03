@@ -25,6 +25,8 @@
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
     margin-top: .25em;
     padding-bottom: .5em; }
+  .btn:focus {
+    outline: none; }
 
 .btn--blue {
   background-color: #3498db; }
