@@ -37,31 +37,35 @@
     &:focus {
       outline: none;
     }
-}
 
-// Colors
-// -----------
-.btn--blue {
-  background-color: $blue;
-}
-.btn--green {
-  background-color: $green;
-}
-.btn--red {
-  background-color: $red;
-}
+    // Colors
+    // -----------
+    &--blue {
+      background-color: $blue;
+    }
 
-// Sizes
-// -----------
-.btn--lg {
-  font-size: $large;
-}
-.btn--df {
-  font-size: $default;
-}
-.btn--md {
-  font-size: $medium;
-}
-.btn--sm {
-  font-size: $small;
+    &--green {
+      background-color: $green;
+    }
+
+    &--red {
+      background-color: $red;
+    }
+
+    // Sizes
+    // -----------
+    &--lg {
+      font-size: $large;
+    }
+
+    &--df {
+      font-size: $default;
+    }
+
+    &--md {
+      font-size: $medium;
+    }
+    &--sm {
+      font-size: $small;
+    }
 }
