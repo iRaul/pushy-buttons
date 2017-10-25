@@ -8,15 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EsaJuhana/pushy-buttons.git"
+    "url": "git+https://github.com/iRaul/pushy-buttons.git"
   },
-  "keywords": [],
+  "keywords": [
+    "buttons",
+    "css",
+    "scss",
+    "3D effect",
+    "stylesheets"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EsaJuhana/pushy-buttons/issues"
+    "url": "https://github.com/iRaul/pushy-buttons/issues"
   },
-  "homepage": "https://github.com/EsaJuhana/pushy-buttons#readme",
+  "homepage": "https://github.com/iRaul/pushy-buttons#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
