@@ -29,22 +29,22 @@ Checkout the [Demo](https://iraul.github.io/pushy-buttons/) to see the buttons i
 
 ```html
 <!-- Blue Buttons -->
-<button class="btn btn--lg btn--blue">Button</button>
-<button class="btn btn--df btn--blue">Button</button>
-<button class="btn btn--md btn--blue">Button</button>
-<button class="btn btn--sm btn--blue">Button</button>
+<button class="pushy__btn pushy__btn--lg pushy__btn--blue">Button</button>
+<button class="pushy__btn pushy__btn--df pushy__btn--blue">Button</button>
+<button class="pushy__btn pushy__btn--md pushy__btn--blue">Button</button>
+<button class="pushy__btn pushy__btn--sm pushy__btn--blue">Button</button>
 
 <!-- Green Buttons -->
-<button class="btn btn--lg btn--green">Button</button>
-<button class="btn btn--df btn--green">Button</button>
-<button class="btn btn--md btn--green">Button</button>
-<button class="btn btn--sm btn--green">Button</button>
+<button class="pushy__btn pushy__btn--lg pushy__btn--green">Button</button>
+<button class="pushy__btn pushy__btn--df pushy__btn--green">Button</button>
+<button class="pushy__btn pushy__btn--md pushy__btn--green">Button</button>
+<button class="pushy__btn pushy__btn--sm pushy__btn--green">Button</button>
 
 <!-- Red Buttons -->
-<button class="btn btn--lg btn--red">Button</button>
-<button class="btn btn--df btn--red">Button</button>
-<button class="btn btn--md btn--red">Button</button>
-<button class="btn btn--sm btn--red">Button</button>
+<button class="pushy__btn pushy__btn--lg pushy__btn--red">Button</button>
+<button class="pushy__btn pushy__btn--df pushy__btn--red">Button</button>
+<button class="pushy__btn pushy__btn--md pushy__btn--red">Button</button>
+<button class="pushy__btn pushy__btn--sm pushy__btn--red">Button</button>
 ```
 ## Author
 
