@@ -1,14 +1,14 @@
-/* Tomorrow Night Eighties Theme */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Ocean Dark Theme */
+/* https://github.com/gavsiu */
+/* Original theme - https://github.com/chriskempson/base16 */
 
-/* Tomorrow Comment */
+/* Ocean Comment */
 .hljs-comment,
 .hljs-quote {
-  color: #999999;
+  color: #65737e;
 }
 
-/* Tomorrow Red */
+/* Ocean Red */
 .hljs-variable,
 .hljs-template-variable,
 .hljs-tag,
@@ -17,10 +17,10 @@
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-  color: #f2777a;
+  color: #bf616a;
 }
 
-/* Tomorrow Orange */
+/* Ocean Orange */
 .hljs-number,
 .hljs-built_in,
 .hljs-builtin-name,
@@ -29,42 +29,41 @@
 .hljs-params,
 .hljs-meta,
 .hljs-link {
-  color: #f99157;
+  color: #d08770;
 }
 
-/* Tomorrow Yellow */
+/* Ocean Yellow */
 .hljs-attribute {
-  color: #ffcc66;
+  color: #ebcb8b;
 }
 
-/* Tomorrow Green */
+/* Ocean Green */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #99cc99;
+  color: #a3be8c;
 }
 
-/* Tomorrow Blue */
+/* Ocean Blue */
 .hljs-title,
 .hljs-section {
-  color: #6699cc;
+  color: #8fa1b3;
 }
 
-/* Tomorrow Purple */
+/* Ocean Purple */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #cc99cc;
+  color: #b48ead;
 }
 
 .hljs {
+  border-radius: 4px;
   display: block;
   overflow-x: auto;
-  background: #2d2d2d;
-  color: #cccccc;
-  padding: 2.5em;
-  border-radius: 4px;
-  max-width: 460px;
+  background: #2b303b;
+  color: #c0c5ce;
+  padding: 0.5em;
 }
 
 .hljs-emphasis {
