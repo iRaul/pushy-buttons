@@ -71,15 +71,17 @@ main {
   padding: 0 15px; }
 
 section {
-  padding: 40px 0; }
+  padding: 60px 0; }
+  section:not(:last-child) {
+    border-bottom: 1px solid #DDD; }
   section pre {
     margin: 0; }
   section h2 {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 900;
-    margin-bottom: 0; }
+    font-weight: 800;
+    margin: 0; }
   section .blue {
     color: #3498db; }
   section .green {

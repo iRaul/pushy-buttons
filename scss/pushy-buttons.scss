@@ -38,7 +38,11 @@ main {
 }
 
 section {
-  padding: 40px 0;
+  padding: 60px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #DDD;
+  }
 
   pre {
     margin: 0;
@@ -48,8 +52,8 @@ section {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 900;
-    margin-bottom: 0;
+    font-weight: 800;
+    margin: 0;
   }
 
   .blue { color: $blue; }
