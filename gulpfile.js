@@ -16,7 +16,6 @@ gulp.task('css', function () {
   .pipe(browserSync.reload({stream:true}));
 });
 
-
 gulp.task('browser-sync', function() {
   browserSync.init(null, {
       server: {

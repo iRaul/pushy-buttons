@@ -10,12 +10,10 @@
   color: #fff;
   cursor: pointer;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 1px;
   padding: .5em 1.5em .75em;
   position: relative;
-  text-decoration: none;
   vertical-align: middle;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -29,11 +27,11 @@
   .pushy__btn:active, .pushy__btn:focus {
     outline: none; }
   .pushy__btn--blue {
-    background-color: #3498db; }
+    background-color: #1199EE; }
   .pushy__btn--green {
-    background-color: #1abc9c; }
+    background-color: #10ac84; }
   .pushy__btn--red {
-    background-color: #e65d4f; }
+    background-color: #EE4444; }
   .pushy__btn--lg {
     font-size: 1.5em; }
   .pushy__btn--df {
@@ -83,11 +81,11 @@ section {
     font-weight: 800;
     margin: 0; }
   section .blue {
-    color: #3498db; }
+    color: #1199EE; }
   section .green {
-    color: #1abc9c; }
+    color: #10ac84; }
   section .red {
-    color: #e65d4f; }
+    color: #EE4444; }
 
 .title {
   color: #333;
