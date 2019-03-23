@@ -48,10 +48,9 @@ section {
     margin: 0;
   }
 
-  h2 {
+  h3 {
     color: #333;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 800;
     margin: 0;
   }
@@ -65,7 +64,14 @@ section {
 .title {
   color: #333;
   text-transform: uppercase;
-  letter-spacing: 3px;
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+// Subtitle
+.subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin-top: 0;
 }
