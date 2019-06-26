@@ -1,6 +1,6 @@
 # PUSHY BUTTONS
 
-![Pushy Buttons](readme-bg.png)
+![Pushy Buttons](img/readme-bg.png)
 > A small CSS Pressable Buttons library.
 
 - Any contributions are more than welcome. 🤗
