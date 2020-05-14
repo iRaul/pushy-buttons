@@ -48,7 +48,7 @@ body {
   background-color: #FFF;
   min-height: 100%;
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
   @media (max-width: 800px) {
@@ -95,5 +95,5 @@ section {
 
 .subtitle {
   color: rgba(0, 0, 0, 0.5);
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0; }
